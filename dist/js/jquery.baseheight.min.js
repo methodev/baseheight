@@ -1,5 +1,5 @@
 /*!
-  jQuery BaseHeight Plugin v0.1.0
+  jQuery BaseHeight Plugin v1.0.0
   http://baseheight.martinmetodiev.com
 
   Copyright (c) 2015 Martin Metodiev

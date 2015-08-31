@@ -1,4 +1,4 @@
-# jQuery BaseHeight Plugin v0.1.0
+# jQuery BaseHeight Plugin v1.0.0
 
 Equal heights for set of responsive columns.
 
