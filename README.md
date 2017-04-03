@@ -1,6 +1,8 @@
-# jQuery BaseHeight Plugin v1.0.0
+# jQuery BaseHeight Plugin
 
 Equal heights for set of responsive columns.
+
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/) [![Travis](https://img.shields.io/travis/martinmethod/baseheight.svg)](https://travis-ci.org/martinmethod/baseheight) [![David](https://img.shields.io/david/dev/martinmethod/baseheight.svg)](https://david-dm.org/martinmethod/baseheight?type=dev) [![GitHub release](https://img.shields.io/github/release/martinmethod/baseheight.svg)](https://github.com/martinmethod/baseheight/releases/latest)
 
 ## Description
 
@@ -15,7 +17,7 @@ also a great module to control due to it's methods.
 
 You can [download the plugin as an archive][zip].
 
-[zip]: https://github.com/martinmethod/baseheight/zipball/master
+[zip]: https://github.com/martinmethod/baseheight/zipball/prod
 
 Or you can grab it by using **npm**:
 
@@ -57,7 +59,7 @@ Of course, you can also provide specific targets with a custom selector by doing
 
 ```javascript
 $.baseheight({
-    target: $('selector') 
+    target: $('selector')
 });
 ```
 
@@ -133,6 +135,6 @@ columns.destroy();
 
 ## License
 
-Copyright © 2015 Martin Metodiev. Licensed under the MIT license. [See here for more details.][licence]
+Copyright © 2017 Martin Metodiev. Licensed under the MIT license. [See here for more details.][licence]
 
-[licence]: https://raw.github.com/martinmethod/baseheight/master/LICENSE-MIT
+[licence]: https://raw.github.com/martinmethod/baseheight/prod/LICENSE-MIT
