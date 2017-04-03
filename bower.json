@@ -18,7 +18,7 @@
     "jQuery",
     "plugin"
   ],
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage": "http://baseheight.martinmetodiev.com",
   "authors": [
     {
@@ -38,16 +38,14 @@
   "main": [
     "dist/js/jquery.baseheight.js",
     "dist/js/jquery.baseheight.min.js",
-    "dist/js/jquery.baseheight.min.js.map"
+    "dist/js/jquery.baseheight.min.js.map",
+    "dist/css/baseheight.css",
+    "dist/css/baseheight.min.css",
+    "dist/css/baseheight.min.css.map"
   ],
   "ignore": [
-    "**/.*",
-    "demo_components",
-    ".bowerrc",
-    ".csslintrc",
-    ".jshintrc",
-    "Gruntfile.js",
-    "index.html",
-    "package.json"
+    ".travis.yml",
+    "deploy_key.enc",
+    "deploy.sh"
   ]
 }

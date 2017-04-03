@@ -1,0 +1,50 @@
+// =========================| Demo styles |========================= //
+
+
+
+//--------------------------| Compass
+
+@import '../../../node_modules/compass-mixins/lib/compass';
+
+
+//--------------------------| Variables
+
+$col-bgr: #f5f5f5;
+
+
+
+//====================> 1. Base
+
+.demo-holder {
+
+  .content {
+    .demo-col {
+      float: left;
+      width: 48%;
+      padding: 4%;
+      margin: 0 1%;
+      font-size: 13px;
+      background-color: $col-bgr;
+
+      .holder {
+        height: 100%;
+        overflow: hidden;
+      }
+    }
+
+    .demo-basic {
+      margin-bottom: 30px;
+    }
+
+    .buttons {
+      margin-top: 20px;
+
+      .btn {
+        display: block;
+        width: 200px;
+        margin: 0 auto 10px;
+      }
+    }
+  }
+
+}
