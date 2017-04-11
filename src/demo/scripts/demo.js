@@ -17,7 +17,9 @@ jQuery(document).ready(function($) {
       (function() {
         $.baseheight();
 
-        $('.demo-init').baseheight();
+        setTimeout(function() {
+          $('.demo-init').baseheight();
+        }, 10);
       }());
 
       // Methods demo
