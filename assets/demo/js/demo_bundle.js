@@ -8,67 +8,74 @@ jQuery(document).ready(function($) {
 
   'use strict';
 
-  // Initialization demo
-  (function() {
-    $.baseheight();
+  $.ajax({
+    url: 'assets/demo/demo.html',
+    dataType: 'html'
+  }).done(function(response) {
+    $('.demo-holder .content').html(response).promise().done(function(){
+      // Initialization demo
+      (function() {
+        $.baseheight();
 
-    $('.demo-init').baseheight();
-  }());
+        $('.demo-init').baseheight();
+      }());
 
-  // Methods demo
-  (function() {
-    var baseheight,
-      methodDemo = {
-        init: function() {
-          baseheight = $('.demo-methods').baseheight();
+      // Methods demo
+      (function() {
+        var baseheight,
+          methodDemo = {
+            init: function() {
+              baseheight = $('.demo-methods').baseheight();
 
-          this.setActions();
+              this.setActions();
 
-          return this;
-        },
+              return this;
+            },
 
-        setActions: function() {
-          var demo = $('.demo-methods'),
-            turnBtn = $('.btn-turn'),
-            powerBtn = $('.btn-power');
+            setActions: function() {
+              var demo = $('.demo-methods'),
+                turnBtn = $('.btn-turn'),
+                powerBtn = $('.btn-power');
 
-          turnBtn.on('click', function() {
-            var currentState = turnBtn.attr('rel'),
-              newState = currentState === 'Off' ? 'On' : 'Off';
+              turnBtn.on('click', function() {
+                var currentState = turnBtn.attr('rel'),
+                  newState = currentState === 'Off' ? 'On' : 'Off';
 
-            baseheight['baseheight' + currentState]();
+                baseheight['baseheight' + currentState]();
 
-            turnBtn.attr('rel', newState).text('baseheight' + newState + '()');
-          });
+                turnBtn.attr('rel', newState).text('baseheight' + newState + '()');
+              });
 
-          powerBtn.on('click', function() {
-            var state = powerBtn.attr('rel'),
-              newState = null,
-              label = null;
+              powerBtn.on('click', function() {
+                var state = powerBtn.attr('rel'),
+                  newState = null,
+                  label = null;
 
-            switch(state) {
-              case 'Off':
-                baseheight.destroy();
-                turnBtn.hide().attr('rel', 'Off').text('baseheightOff()');
-                label = 'Initialize again';
-                newState = 'On';
-                break;
-              case 'On':
-                baseheight = demo.baseheight();
-                turnBtn.show();
-                label = 'destroy()';
-                newState = 'Off';
-                break;
+                switch(state) {
+                  case 'Off':
+                    baseheight.destroy();
+                    turnBtn.hide().attr('rel', 'Off').text('baseheightOff()');
+                    label = 'Initialize again';
+                    newState = 'On';
+                    break;
+                  case 'On':
+                    baseheight = demo.baseheight();
+                    turnBtn.show();
+                    label = 'destroy()';
+                    newState = 'Off';
+                    break;
+                }
+
+                powerBtn.attr('rel', newState).text(label);
+              });
+
+              return this;
             }
+          };
 
-            powerBtn.attr('rel', newState).text(label);
-          });
-
-          return this;
-        }
-      };
-
-    methodDemo.init();
-  }());
+        methodDemo.init();
+      }());
+    });
+  });
 
 });

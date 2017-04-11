@@ -1,3 +1,13 @@
+<a name="1.2.1"></a>
+## 1.2.1 (2017-04-11)
+
+
+### Features
+
+* **Build:** External markup support ([5b5b740](https://github.com/martinmethod/baseheight/commit/5b5b740))
+
+
+
 <a name="1.2.0"></a>
 # 1.2.0 (2017-04-05)
 

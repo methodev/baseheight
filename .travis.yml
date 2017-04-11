@@ -15,7 +15,6 @@ deploy:
     secure: W+qEkvbk6y3kw9diXAaPAQwP99Ji5ROQbLf+TrmZE81r0RgxoJNJp0zygjMy+q1xLcboaCaM6T8m+DzGhf6FshlqiGn4eaIae7hbr5fi9vEcc9+DfDCxryw1ACrkl5/fTbDNRcLd8A3/DF1btd2ByMfDA/w2BDCYz1CS0cx8s2ot0ix+PNBTsOzc6m/oXeGz22okPnnKePGxmuqQQqInMM2gPL7VzjYAN1CbOHEXVcLSSdibh9APQcwShhe5l2Kq91c5J2UUbj8oj/VdCwod33BkeMQJl8TWGxjgsAf6AqXr6IAM3kv6CAM0jPLmbxzNQZfj7DVRYqafH9Xut3ZRBzbj5KmFdmIVUAE+Rzw0/BnT7K2sMtzrgKlB6ys8uECya0JmFk3EG3eO9WBzy603qX9+5rZL87zASUdWbPBqy8/382BnaQgaolSLo2ZmSRd3pdI//hjHt+MF2izwtCg5vCnj0nf5uU8QuDcl1ByvX9PprbkJXak+5r0QUewZAXLOig022EsOQqhkQQVRwaNuY7uBiXdoW60T978027R5Da5liopAxS8SqKspmy+NXnAwdSlphP62/dm2UQ+8ju+haigqgeUmxWzUWIbbjYUjU947lKd30w4MoUo5w25u9BblODlFBCI3c46EvxKsUGiYQ49zkKHQG52L3NCSkH03Nb4=
   on:
     tags: true
-    all_branches: true
 - provider: pages
   skip_cleanup: true
   github_token:
