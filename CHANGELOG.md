@@ -1,3 +1,13 @@
+<a name="1.2.2"></a>
+## 1.2.2 (2017-04-11)
+
+
+### Bug Fixes
+
+* **Demo:** Broken image demo ([9d6af58](https://github.com/martinmethod/baseheight/commit/9d6af58))
+
+
+
 <a name="1.2.1"></a>
 ## 1.2.1 (2017-04-11)
 
