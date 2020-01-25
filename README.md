@@ -2,7 +2,7 @@
 
 Equal heights for set of responsive columns.
 
-[![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/) [![GitHub license](https://img.shields.io/badge/license-MIT-yellow.svg)](https://raw.githubusercontent.com/martinmethod/baseheight/prod/LICENSE-MIT) [![Travis](https://img.shields.io/travis/martinmethod/baseheight.svg)](https://travis-ci.org/martinmethod/baseheight) [![David](https://img.shields.io/david/dev/martinmethod/baseheight.svg)](https://david-dm.org/martinmethod/baseheight?type=dev) [![GitHub release](https://img.shields.io/github/release/martinmethod/baseheight.svg)](https://github.com/martinmethod/baseheight/releases/latest) [![npm](https://img.shields.io/npm/v/baseheight.svg)](https://www.npmjs.com/package/baseheight) [![Bower](https://img.shields.io/bower/v/baseheight.svg)](https://github.com/martinmethod/baseheight)
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](https://gruntjs.com/) [![GitHub license](https://img.shields.io/badge/license-MIT-yellow.svg)](https://raw.githubusercontent.com/martinmethod/baseheight/prod/LICENSE-MIT) [![Travis](https://img.shields.io/travis/martinmethod/baseheight.svg)](https://travis-ci.org/martinmethod/baseheight) [![David](https://img.shields.io/david/dev/martinmethod/baseheight.svg)](https://david-dm.org/martinmethod/baseheight?type=dev) [![GitHub release](https://img.shields.io/github/release/martinmethod/baseheight.svg)](https://github.com/martinmethod/baseheight/releases/latest) [![npm](https://img.shields.io/npm/v/baseheight.svg)](https://www.npmjs.com/package/baseheight) [![Bower](https://img.shields.io/bower/v/baseheight.svg)](https://github.com/martinmethod/baseheight)
 
 ## Description
 
@@ -11,7 +11,7 @@ also a great module to control due to it's methods.
 
 ## Demo
 
-<a href="http://baseheight.martinmetodiev.com" target="_blank">baseheight.martinmetodiev.com</a>
+<a href="https://baseheight.metodiev.dev" target="_blank">baseheight.metodiev.dev</a>
 
 ## Getting Started
 
