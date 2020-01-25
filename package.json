@@ -19,18 +19,18 @@
     "plugin"
   ],
   "version": "1.2.2",
-  "homepage": "http://baseheight.martinmetodiev.com",
-  "demo": "http://baseheight.martinmetodiev.com",
+  "homepage": "http://baseheight.metodiev.dev",
+  "demo": "http://baseheight.metodiev.dev",
   "author": {
     "name": "Martin Metodiev",
     "email": "metodiev.martin@gmail.com",
-    "url": "http://martinmetodiev.com"
+    "url": "http://metodiev.dev"
   },
   "maintainers": [
     {
       "name": "Martin Metodiev",
       "email": "metodiev.martin@gmail.com",
-      "url": "http://martinmetodiev.com"
+      "url": "http://metodiev.dev"
     }
   ],
   "repository": {
