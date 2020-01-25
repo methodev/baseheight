@@ -1,8 +1,8 @@
 /*! 
- jQuery BaseHeight Plugin v1.2.2
- http://baseheight.martinmetodiev.com
+ jQuery BaseHeight Plugin v1.3.0
+ https://baseheight.metodiev.dev
 
- Copyright (c) 2017 Martin Metodiev
+ Copyright (c) 2020 Martin Metodiev
  Licensed under the MIT license.
 */
 
