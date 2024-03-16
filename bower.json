@@ -42,8 +42,5 @@
     "dist/css/baseheight.css",
     "dist/css/baseheight.min.css",
     "dist/css/baseheight.min.css.map"
-  ],
-  "ignore": [
-    ".travis.yml
   ]
 }
