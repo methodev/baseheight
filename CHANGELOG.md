@@ -9,7 +9,7 @@
 
 ### Bug Fixes
 
-* **Demo:** Broken image demo ([9d6af58](https://github.com/martinmethod/baseheight/commit/9d6af58))
+* **Demo:** Broken image demo ([9d6af58](https://github.com/mevbg/baseheight/commit/9d6af58))
 
 
 
@@ -19,7 +19,7 @@
 
 ### Features
 
-* **Build:** External markup support ([5b5b740](https://github.com/martinmethod/baseheight/commit/5b5b740))
+* **Build:** External markup support ([5b5b740](https://github.com/mevbg/baseheight/commit/5b5b740))
 
 
 
@@ -29,12 +29,12 @@
 
 ### Bug Fixes
 
-* **Google Analytics:** Missed ID ([93fd568](https://github.com/martinmethod/baseheight/commit/93fd568))
+* **Google Analytics:** Missed ID ([93fd568](https://github.com/mevbg/baseheight/commit/93fd568))
 
 
 ### Features
 
-* **Deploy:** npm, GitHub Pages & GitHub Releases ([be6aba8](https://github.com/martinmethod/baseheight/commit/be6aba8))
+* **Deploy:** npm, GitHub Pages & GitHub Releases ([be6aba8](https://github.com/mevbg/baseheight/commit/be6aba8))
 
 
 
@@ -44,7 +44,7 @@
 
 ### Features
 
-* **Building system:** Refactored building system ([8fcf0f7](https://github.com/martinmethod/baseheight/commit/8fcf0f7))
+* **Building system:** Refactored building system ([8fcf0f7](https://github.com/mevbg/baseheight/commit/8fcf0f7))
 
 
 

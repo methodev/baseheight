@@ -9,13 +9,13 @@ also a great module to control due to it's methods.
 
 ## Demo
 
-<a href="https://baseheight.metodiev.dev" target="_blank">baseheight.metodiev.dev</a>
+<a href="https://baseheight.mev.bg" target="_blank">baseheight.mev.bg</a>
 
 ## Getting Started
 
 You can [download the plugin as an archive][zip].
 
-[zip]: https://github.com/martinmethod/baseheight/zipball/prod
+[zip]: https://github.com/mevbg/baseheight/zipball/prod
 
 Or you can grab it by using **npm**:
 
@@ -135,4 +135,4 @@ columns.destroy();
 
 Copyright © 2017 Martin Metodiev. Licensed under the MIT license. [See here for more details.][licence]
 
-[licence]: https://raw.github.com/martinmethod/baseheight/prod/LICENSE-MIT
+[licence]: https://raw.github.com/mevbg/baseheight/prod/LICENSE-MIT
